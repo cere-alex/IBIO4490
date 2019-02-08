@@ -1,0 +1,5 @@
+Este es el texto prueba para un clon
+hacer pruebas de como montar el servidor en ubuntu
+sshfm
+bashrc
+cvpapers 

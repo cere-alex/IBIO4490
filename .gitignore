@@ -9,6 +9,7 @@ solution/
 _data/
 *.pyc
 .ipynb*
+<<<<<<< HEAD
 Arte/
 credentials.json
 /run.py
@@ -18,3 +19,6 @@ arte_new/
 arte_nube.zip
 quickstart.py
 token.pickle
+=======
+clone/
+>>>>>>> upstream/master

@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 r
 
 
+=======
+>>>>>>> upstream/master
 # Introduction to Linux
 
 ## Preparation

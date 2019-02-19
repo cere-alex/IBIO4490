@@ -4,4 +4,4 @@ sshfm
 bashrc
 cvpapers
 imagenes hibridas
-y bledrning 
+y bledrning

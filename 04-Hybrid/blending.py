@@ -48,4 +48,3 @@ plt.show()
 cv2.imshow('yo',XX_data[c])
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-pyramid

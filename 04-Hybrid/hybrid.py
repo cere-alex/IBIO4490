@@ -2,18 +2,19 @@ from math import log2
 from PIL import Image, ImageFilter, ImageChops
 import matplotlib.pyplot as plt
 import cv2
+
 img = Image.open('inti2.jpg')
-img=img.rotate(-90)
+img = img.rotate(-90)
 x = 512
 y = 512
 r = 20
 
 img_dog = img.resize((x, y))
-img_dog_gaussian = img_dog.filter(ImageFilter.GaussianBlur(radius=r/1.5))
+img_dog_gaussian = img_dog.filter(ImageFilter.GaussianBlur(radius=r / 1.5))
 img = Image.open('id.jpg')
-img=img.rotate(-90)
+img = img.rotate(-90)
 img_i = img.resize((x, y))
-img_i_gaussian = img_i.filter(ImageFilter.GaussianBlur(radius=r*1.5))
+img_i_gaussian = img_i.filter(ImageFilter.GaussianBlur(radius=r * 1.5))
 img_i_difference = ImageChops.difference(img_i, img_i_gaussian)
 img_sum = ImageChops.add(img_dog_gaussian, img_i_difference)
 plt.figure(1)

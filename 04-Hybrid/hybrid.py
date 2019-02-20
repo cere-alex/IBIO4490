@@ -1,37 +1,19 @@
-from math import log2
-from PIL import Image, ImageFilter, ImageChops
-import matplotlib.pyplot as plt
 import cv2
-
-img = Image.open('inti2.jpg')
-img = img.rotate(-90)
+Gamma_1 = 5
+Gamma_2 = 45
+Dim = 35
+img = cv2.imread('id.jpg')
 x = 512
 y = 512
-r = 20
+img_2 = cv2.resize(img,(x, y))
+img_2_gaussian = cv2.GaussianBlur(img_2, (Dim, Dim), Gamma_1)
+img = cv2.imread('id2.jpg')
+img_i = cv2.resize(img,(x, y))
+img_i_gaussian = cv2.GaussianBlur(img_i , (Dim, Dim), Gamma_2)
+img_i_difference = cv2.subtract(img_i, img_i_gaussian)
+img_sum = cv2.add(img_2_gaussian, img_i_difference)
 
-img_dog = img.resize((x, y))
-img_dog_gaussian = img_dog.filter(ImageFilter.GaussianBlur(radius=r / 1.5))
-img = Image.open('id.jpg')
-img = img.rotate(-90)
-img_i = img.resize((x, y))
-img_i_gaussian = img_i.filter(ImageFilter.GaussianBlur(radius=r * 1.5))
-img_i_difference = ImageChops.difference(img_i, img_i_gaussian)
-img_sum = ImageChops.add(img_dog_gaussian, img_i_difference)
-plt.figure(1)
-plt.subplot(221)
-plt.imshow(img_dog)
-plt.axis('off')
-plt.subplot(222)
-plt.imshow(img_dog_gaussian)
-plt.axis('off')
-plt.subplot(223)
-plt.imshow(img_i)
-plt.axis('off')
-plt.subplot(224)
-plt.imshow(img_i_difference)
-plt.axis('off')
-plt.figure(2)
-plt.imshow(img_sum)
-plt.axis("off")
-plt.show()
-print(log2(x))
+final = cv2.hconcat((img_2_gaussian, img_i_difference,img_sum))
+cv2.imshow("amigos",final)
+cv2.waitKey(0)
+cv2.destroyAllWindows()

@@ -15,10 +15,15 @@ credentials.json
 /run.py
 /run2.py
 /run3.py
+blending1.py
+blending2.py
+fotos.zip
+fotos
 arte_new/
 arte_nube.zip
 quickstart.py
 token.pickle
+/.idea/
 =======
 clone/
 >>>>>>> upstream/master

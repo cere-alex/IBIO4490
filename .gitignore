@@ -3,6 +3,7 @@ Ignore/
 *.ppt
 *.odt
 BSR/
+blending2.py
 *.tgz
 *solution*
 solution/
@@ -12,11 +13,12 @@ _data/
 <<<<<<< HEAD
 Arte/
 credentials.json
+Modelado.py
 /run.py
 /run2.py
 /run3.py
 blending1.py
-blending2.py
+
 fotos.zip
 fotos
 arte_new/
@@ -24,6 +26,7 @@ arte_nube.zip
 quickstart.py
 token.pickle
 /.idea/
+informe_lab2(esp).txt
 =======
 clone/
 >>>>>>> upstream/master

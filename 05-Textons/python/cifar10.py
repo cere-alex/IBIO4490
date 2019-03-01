@@ -28,9 +28,15 @@ def merge_dict(dict1, dict2):
     for key, value in new_dict.items():
         if key == 'data':
             new_dict[key] = np.vstack((value[0], value[1]))
+<<<<<<< HEAD:05-Textons/python/cifar10.py
         if key == 'labels':
             new_dict[key] = np.hstack((value[0], value[1]))
         elif key == 'batch_label':
+=======
+        elif key=='labels':
+            new_dict[key] = np.hstack((value[0], value[1]))            
+        elif key=='batch_label':
+>>>>>>> f0b66a657b3bc4b36918846c82d0f727d6792ff1:05-Textons/cifar10.py
             new_dict[key] = value[1]
         else:
             new_dict[key] = value[0] + value[1]
@@ -43,7 +49,11 @@ def load_cifar10(meta='cifar-10-batches-py', mode=1):
     import os
     if isinstance(mode, int):
         for i in range(mode):
+<<<<<<< HEAD:05-Textons/python/cifar10.py
             file_ = os.path.join(meta, 'data_batch_' + str(mode))
+=======
+            file_ = os.path.join(meta, 'data_batch_'+str(i+1))           
+>>>>>>> f0b66a657b3bc4b36918846c82d0f727d6792ff1:05-Textons/cifar10.py
             _dict = merge_dict(_dict, unpickle(file_))
     else:
         file_ = os.path.join(meta, 'test_batch')

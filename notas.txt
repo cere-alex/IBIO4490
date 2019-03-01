@@ -5,3 +5,10 @@ bashrc
 cvpapers
 imagenes hibridas
 y bledrning
+htop para salirse
+screen
+tmanho de imagnes
+filtros que se usara
+usar dos metodos de claesificacion
+usar otro clasifiador
+nvidia-smi

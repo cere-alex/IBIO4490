@@ -3,8 +3,8 @@ def assignTextons(fim, textons):
     from distSqr import distSqr
     fim = np.array(fim)
     fim_shape = fim.shape
-    fim = fim.reshape(fim_shape[0]*fim_shape[1], -1)
-            
+    fim = fim.reshape(fim_shape[0] * fim_shape[1], -1)
+
     d2 = distSqr(np.array(fim), np.array(textons))
     # y = np.min(d2, axis=1)
     map = np.argmin(d2, axis=1)

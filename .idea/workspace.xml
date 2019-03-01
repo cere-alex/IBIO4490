@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28384a9f-9f8a-4214-9ab1-487ac244549f" name="Default Changelist" comment="blendig, blening1 son versiones antiguas, el mas estable es el blendig3, hibrid parace que esta bien">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-Textons/cifar10.py" beforeDir="false" afterPath="$PROJECT_DIR$/05-Textons/python/cifar10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-Textons/img/moto1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/05-Textons/python/img/moto1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-Textons/img/moto2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/05-Textons/python/img/moto2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-Textons/img/perro1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/05-Textons/python/img/perro1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-Textons/img/perro2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/05-Textons/python/img/perro2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-Textons/python/assignTextons.py" beforeDir="false" afterPath="$PROJECT_DIR$/05-Textons/python/assignTextons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-Textons/python/distSqr.py" beforeDir="false" afterPath="$PROJECT_DIR$/05-Textons/python/distSqr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-Textons/python/fbCreate.py" beforeDir="false" afterPath="$PROJECT_DIR$/05-Textons/python/fbCreate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-Textons/python/fbRun.py" beforeDir="false" afterPath="$PROJECT_DIR$/05-Textons/python/fbRun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-Textons/python/isum.py" beforeDir="false" afterPath="$PROJECT_DIR$/05-Textons/python/isum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-Textons/python/oeFilter.py" beforeDir="false" afterPath="$PROJECT_DIR$/05-Textons/python/oeFilter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-Textons/python/padReflect.py" beforeDir="false" afterPath="$PROJECT_DIR$/05-Textons/python/padReflect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notas.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pruebas.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,54 +28,7 @@
     <favorites_list name="work-space" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-Hybrid/blending.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2376">
-              <caret line="112" selection-start-line="112" selection-end-line="112" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modelado.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-Hybrid/Readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SECOND">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-Hybrid/blending1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,24 +44,36 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/03-Python/run.py" />
-        <option value="$PROJECT_DIR$/notas.txt" />
         <option value="$PROJECT_DIR$/03-Python/8.3. Images - OpenCV.ipynb" />
         <option value="$PROJECT_DIR$/04-Hybrid/run.py" />
-        <option value="$PROJECT_DIR$/pruebas.py" />
         <option value="$PROJECT_DIR$/04-Hybrid/blending.py" />
         <option value="$PROJECT_DIR$/04-Hybrid/blending1.py" />
         <option value="$PROJECT_DIR$/04-Hybrid/hybrid.py" />
         <option value="$PROJECT_DIR$/04-Hybrid/blending2.py" />
         <option value="$PROJECT_DIR$/Modelado.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/notas.txt" />
+        <option value="$PROJECT_DIR$/05-Textons/prueba_textons.py" />
+        <option value="$PROJECT_DIR$/05-Textons/python/oeFilter.py" />
+        <option value="$PROJECT_DIR$/05-Textons/python/isum.py" />
+        <option value="$PROJECT_DIR$/05-Textons/python/padReflect.py" />
+        <option value="$PROJECT_DIR$/05-Textons/python/fbRun.py" />
+        <option value="$PROJECT_DIR$/05-Textons/python/distSqr.py" />
+        <option value="$PROJECT_DIR$/05-Textons/python/assignTextons.py" />
+        <option value="$PROJECT_DIR$/pruebas.py" />
+        <option value="$PROJECT_DIR$/05-Textons/python/fbCreate.py" />
+        <option value="$PROJECT_DIR$/05-Textons/python/computeTextons.py" />
+        <option value="$PROJECT_DIR$/05-Textons/python/prueba_textons.py" />
+        <option value="$PROJECT_DIR$/05-Textons/cifar10.py" />
+        <option value="$PROJECT_DIR$/05-Textons/prueba_textons_2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="404" />
+    <option name="x" value="420" />
     <option name="y" value="27" />
-    <option name="width" value="927" />
-    <option name="height" value="1053" />
+    <option name="width" value="907" />
+    <option name="height" value="791" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -105,22 +83,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="work-space" type="b2602c69:ProjectViewProjectNode" />
-              <item name="work-space" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="work-space" type="b2602c69:ProjectViewProjectNode" />
-              <item name="work-space" type="462c0819:PsiDirectoryNode" />
-              <item name="04-Hybrid" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -137,22 +99,38 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="work-space" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work-space" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2630614" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings>
+      <console-settings module-name="work-space" is-module-sdk="true">
         <option name="useSoftWraps" value="true" />
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="work-space" />
       </console-settings>
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/05-Textons/python" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/04-Hybrid" />
     </key>
@@ -169,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Modelado">
+  <component name="RunManager" selected="Python.prueba_textons_2">
     <configuration name="work-space" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="work-space" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,27 +180,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Modelado.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="blending" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="work-space" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04-Hybrid" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04-Hybrid/blending.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -271,27 +228,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fragment" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="work-space" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="/fragment.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="hybrid" type="PythonConfigurationType" factoryName="Python">
       <module name="work-space" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -305,6 +241,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04-Hybrid/hybrid.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prueba_textons" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="work-space" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05-Textons" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05-Textons/python/prueba_textons.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prueba_textons_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="work-space" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05-Textons" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05-Textons/prueba_textons_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -378,11 +356,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.prueba_textons_2" />
+        <item itemvalue="Python.prueba_textons" />
         <item itemvalue="Python.Modelado" />
         <item itemvalue="Python.blending2" />
         <item itemvalue="Python.blending1" />
-        <item itemvalue="Python.blending" />
-        <item itemvalue="Python.blending" />
       </list>
     </recent_temporary>
   </component>
@@ -431,21 +409,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="70" y="27" width="1850" height="1053" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6825054" visible="true" weight="0.53770494" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6825054" visible="true" weight="0.124794744" />
       <window_info id="Structure" order="1" sideWeight="0.31834534" side_tool="true" weight="0.2021858" />
       <window_info id="Favorites" order="2" sideWeight="0.3174946" side_tool="true" weight="0.2021858" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49836066" weight="0.3650108" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39848486" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49836066" weight="0.2537797" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3963283" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32937366" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49836066" weight="0.2688985" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49836066" weight="0.267316" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5010929" side_tool="true" weight="0.3650108" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4989071" visible="true" weight="0.6565875" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989071" weight="0.44600433" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4989071" weight="0.3650108" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -453,6 +431,27 @@
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6825054" visible="true" weight="0.12513661" />
+      <window_info id="Structure" order="1" sideWeight="0.31834534" side_tool="true" weight="0.2021858" />
+      <window_info id="Favorites" order="2" sideWeight="0.3174946" side_tool="true" weight="0.2021858" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49836066" visible="true" weight="0.2537797" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3963283" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32937366" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49836066" weight="0.267316" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5010929" side_tool="true" weight="0.3650108" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989071" weight="0.44600433" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4989071" weight="0.3650108" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -488,34 +487,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03-Python/6. Library imports.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-Python/5. Flow control.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-Python/2. Lists.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-Python/8.1. Images - Pillow.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03-Python/8.2. Images - Matplotlib.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -525,16 +496,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inti.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pruebas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/04-Hybrid/run.py" />
     <entry file="file://$PROJECT_DIR$/04-Hybrid/inti2.jpg" />
@@ -553,13 +514,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/encodings.xml" />
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/PIL/Image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1177">
-          <caret line="2633" selection-start-line="2633" selection-end-line="2633" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/PIL/Image.py" />
     <entry file="file:///usr/lib/python3.6/code.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -585,14 +540,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/15356561_10153899363055672_8459866918649323518_n.jpg" />
-    <entry file="file://$PROJECT_DIR$/01-Linux/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04-Hybrid/hybrid.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -613,13 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notas.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/informe_lab2(esp).txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -628,13 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2376">
           <caret line="112" selection-start-line="112" selection-end-line="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modelado.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -655,8 +588,145 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="132">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modelado.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prueba_jupyter.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Linux/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Linux/ssh.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notas.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Textons/python/isum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Textons/python/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Textons/img/moto1.jpg" />
+    <entry file="file://$PROJECT_DIR$/05-Textons/img/perro1.jpg" />
+    <entry file="file://$PROJECT_DIR$/05-Textons/python/distSqr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Textons/python/padReflect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Textons/cifar-10-batches-py/readme.html" />
+    <entry file="file://$PROJECT_DIR$/05-Textons/python/oeFilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Textons/cifar10.py" />
+    <entry file="file://$PROJECT_DIR$/05-Textons/prueba_textons_2.py" />
+    <entry file="file://$PROJECT_DIR$/05-Textons/python/computeTextons.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Textons/python/assignTextons.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Textons/python/fbCreate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Textons/python/fbRun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pruebas.py" />
+    <entry file="file:///usr/lib/python3/dist-packages/skimage/transform/_warps.py" />
+    <entry file="file://$PROJECT_DIR$/05-Textons/python/prueba_textons.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Textons/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>

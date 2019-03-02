@@ -18,13 +18,15 @@ Modelado.py
 /run2.py
 /run3.py
 blending1.py
-
+BSDS_small.zip
+BSDS_small/
 fotos.zip
 fotos
 arte_new/
 arte_nube.zip
 quickstart.py
 token.pickle
+/cifar-10-batches-py
 /.idea/
 informe_lab2(esp).txt
 =======

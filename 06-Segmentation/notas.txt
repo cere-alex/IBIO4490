@@ -1,0 +1,13 @@
+encontrar las parte
+argeparse le hace entrar com debe ser
+import segment....  esa funcion llama
+herarquico seria bueno resize pequeño luego agrandarlo
+	hacerlo interpolacion por vecino para que nohaya vcecinos 
+buscar la mejor usao de k y las mejores iteraciones
+busca r afyncinond e  de herarqieoco 
+gmm es el uso de gaussianas 
+buscar la distancia entre imagenes
+sacar una metria de segmentacion
+al pasara xy lab, hsv hsv suele combiar la escala
+aprender el uso de eval y def en python	
+arkai 

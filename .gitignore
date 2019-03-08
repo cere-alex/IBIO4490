@@ -1,4 +1,5 @@
-Ignore/
+dgnore/
+data/
 *.pptx
 *.ppt
 *.odt
@@ -14,6 +15,8 @@ _data/
 Arte/
 credentials.json
 Modelado.py
+b.py
+p.py
 /run.py
 /run2.py
 /run3.py
@@ -22,6 +25,15 @@ BSDS_small.zip
 BSDS_small/
 fotos.zip
 fotos
+1
+Segment_1.py
+aftrujilloa*
+firstTry.py
+hsv_*
+final.png
+b (copy).py
+umbralizacion*
+BSD_small
 arte_new/
 arte_nube.zip
 quickstart.py

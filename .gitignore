@@ -54,7 +54,8 @@ BSDS500*
 >>>>>>> f0b66a657b3bc4b36918846c82d0f727d6792ff1
 =======
 08-PHOW/data
-vlfeat
+vlfeat*
 */matlab/data
 */python/data
 >>>>>>> 4584c25f209b5fa42d43b2444deb1017d7abcd4a
+startup.m

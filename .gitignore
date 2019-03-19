@@ -6,7 +6,6 @@ data/
 BSR/
 blending2.pyg
 *.tgz
-*solution*
 solution/
 _data/
 *.pyc

@@ -12,3 +12,5 @@ filtros que se usara
 usar dos metodos de claesificacion
 usar otro clasifiador
 nvidia-smi
+Viora jhons
+leer los comentarios 

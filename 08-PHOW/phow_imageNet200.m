@@ -1,8 +1,8 @@
 clear all ; close all; clc
 conf.calDir=('./imageNet200'); % ubicacion archivos a utilizar    `
 conf.numClasses = 200 ;
-conf.numTrain = 15 ;
-conf.numTest = 15 ;
+conf.numTrain = 5 ;
+conf.numTest = 5 ;
 classes = dir(fullfile(conf.calDir,'train')) ;
 %classes = dir(fullfile(conf.calDir)) ;
 classes = classes([classes.isdir]);
@@ -45,7 +45,7 @@ model.classify = @classify ;
 %%
 %parte del entrenamiento
 conf.numWords = 600 ;
-conf.prefix = 'baseline' ;
+conf.prefix = 'baseline_5_img' ;
 conf.dataDir = 'imageNet200/' ;
 conf.vocabPath = fullfile(conf.dataDir, [conf.prefix '-vocab.mat']) ;
 conf.clobber = false ;

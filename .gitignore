@@ -61,6 +61,7 @@ www
 vlfeat*
 */matlab/data
 */python/data
+<<<<<<< HEAD
 >>>>>>> 4584c25f209b5fa42d43b2444deb1017d7abcd4a
 startup.m
 08-PHOW/imageNet200/t*
@@ -68,3 +69,6 @@ startup.m
 08-PHOW/imageNet200/baseline_100_image*
 08-PHOW/imageNet200/baseline_5_img*
 LabHOG
+=======
+*.csv
+>>>>>>> a80a38b2b470ad323ba1d64ff4e65eee0fc7bf8f

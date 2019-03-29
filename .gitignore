@@ -47,11 +47,16 @@ clone/
 >>>>>>> upstream/master
 =======
 html/
+<<<<<<< HEAD
 BSDS500*
 <<<<<<< HEAD
 2019_1_practica6_imagenes.pdf
 >>>>>>> f0b66a657b3bc4b36918846c82d0f727d6792ff1
 =======
+=======
+_html/
+www
+>>>>>>> 78b92d11da403c6b4f20004def189514012bf568
 08-PHOW/data
 vlfeat*
 */matlab/data

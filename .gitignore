@@ -10,7 +10,6 @@ solution/
 _data/
 *.pyc
 .ipynb*
-<<<<<<< HEAD
 Arte/
 credentials.json
 Modelado.py
@@ -42,26 +41,15 @@ token.pickle
 informe_lab2(esp).txt
 /cifar-10-batches-py
 =======
-clone/
-<<<<<<< HEAD
->>>>>>> upstream/master
-=======
 html/
-<<<<<<< HEAD
 BSDS500*
 <<<<<<< HEAD
 2019_1_practica6_imagenes.pdf
 >>>>>>> f0b66a657b3bc4b36918846c82d0f727d6792ff1
-=======
-=======
-_html/
-www
->>>>>>> 78b92d11da403c6b4f20004def189514012bf568
 08-PHOW/data
 vlfeat*
 */matlab/data
 */python/data
-<<<<<<< HEAD
 >>>>>>> 4584c25f209b5fa42d43b2444deb1017d7abcd4a
 startup.m
 08-PHOW/imageNet200/t*
@@ -69,8 +57,9 @@ startup.m
 08-PHOW/imageNet200/baseline_100_image*
 08-PHOW/imageNet200/baseline_5_img*
 LabHOG
-=======
-*.csv
->>>>>>> a80a38b2b470ad323ba1d64ff4e65eee0fc7bf8f
 09-HOG/Lab*
 pruebas
+=======
+11-NN/data
+Challenge_Ignore
+>>>>>>> ba4d5690f263ba8afdf471b4f6ba228540d925f2

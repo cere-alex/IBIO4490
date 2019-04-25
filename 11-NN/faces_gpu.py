@@ -9,7 +9,9 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 def get_data():
     # angry, disgust, fear, happy, sad, surprise, neutral
-    with open("fer2013.csv") as f:
+    # with open("fer2013.csv") as f:
+    with open("D:/Ale/University/UNIANDES/2do semestre/Vision Artificial/work-space/10-LogisticReg/pruebas/fer2013.csv") as f:
+
         content = f.readlines()
 
     lines = np.array(content)
@@ -71,7 +73,7 @@ def sigmoid(x):
 
 def train(model):
     x_train, y_train, x_test, y_test = get_data()
-    batch_size = 100 # Change if you want
+    batch_size = 1000000 # Change if you want
     epochs = 40000 # Change if you want
     criterion = nn.BCEWithLogitsLoss()
     optimizer = torch.optim.SGD(model.parameters(), lr=0.00001)
@@ -82,18 +84,17 @@ def train(model):
             _x_train = x_train[j:j+batch_size]
             _y_train = y_train[j:j+batch_size]
             optimizer.zero_grad()
-            out = model(_x_train) 
+            out = model(_x_train)
             loss = criterion(out, _y_train)
             # compute_loss(out.data.cpu().numpy(), _y_train.data.cpu().numpy())
             loss.backward()
             optimizer.step()
             LOSS.append(loss.item())
-        out = model(x_test)      
+        out = model(x_test)
         loss_test = criterion(out, y_test).item()
         print('Epoch {:6d}: {:.5f} | test: {:.5f}'.format(i, torch.FloatTensor(LOSS).mean(), loss_test))
 
 if __name__ == '__main__':
     model = Net()
-    model.to(device) 
+    model.to(device)
     train(model)
-

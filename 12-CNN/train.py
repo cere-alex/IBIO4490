@@ -248,12 +248,14 @@ class Net(nn.Module):
     def __init__(self):
         super(Net, self).__init__()
         #layer with 64 2d convolutional filter of size 3x3
-        self.conv1 = nn.Conv2d(3, 64, kernel_size=3) #Channels input: 1, c output: 63, filter of size 3
-        self.conv2 = nn.Conv2d(64, 32, kernel_size=3)
-        self.conv3 = nn.Conv2d(32, 32, kernel_size=3)
-        self.fc = nn.Linear(32, 10)    
+        self.conv1 = nn.Conv2d(3, 64, kernel_size=11) #Channels input: 1, c output: 63, filter of size 3
+        self.conv2 = nn.Conv2d(64, 192, kernel_size=7)
+        self.conv3 = nn.Conv2d(192,384, kernel_size=5)
+        self.conv4 = nn.Conv2d(384,256, kernel_size=3)
+        self.conv5 = nn.Conv2d(256, 256, kernel_size=3)
+        self.fc = nn.Linear(256,10)    
     
-    def forward(self, x, verbose=False):
+    def forward(self, x, verbose=True):
         if verbose: "Output Layer by layer"
         if verbose: print(x.size())
         x = F.max_pool2d(F.relu(self.conv1(x)), 2) #Perform a Maximum pooling operation over the nonlinear responses of the convolutional layer
@@ -264,10 +266,14 @@ class Net(nn.Module):
         if verbose: print(x.size())
         x = F.max_pool2d(F.relu(self.conv3(x)), 2)
         if verbose: print(x.size())
+        x = F.max_pool2d(F.relu(self.conv4(x)), 2)
+        if verbose: print(x.size())
         x = F.dropout(x, 0.25, training=self.training)
         if verbose: print(x.size())
+        x = F.max_pool2d(F.relu(self.conv5(x)), 2)
+        if verbose: print(x.size())
         #ipdb.set_trace()
-        x = x.view(-1, 32)
+        x = x.view(-1, 256)
         if verbose: print(x.size())
         x = self.fc(x)
         if verbose: print(x.size())
@@ -276,7 +282,7 @@ class Net(nn.Module):
     def training_params(self):
         self.optimizer = torch.optim.SGD(self.parameters(), lr=0.01, momentum=0.9, weight_decay=0.0)
         self.Loss = nn.BCEWithLogitsLoss()
-  
+ 
 
 def print_network(model, name):
     num_params=0
@@ -286,6 +292,28 @@ def print_network(model, name):
     print(model)
     print("The number of parameters {}".format(num_params)) 
 
+
+def train(data_loader, model, epoch):
+    model.train()
+    loss_cum = []
+    #Acc = 0
+    for batch_idx, (data,target) in tqdm.tqdm(enumerate(data_loader), total=len(data_loader), desc="[TRAIN] Epoch: {}".format(epoch)):
+        Data= next(iter(train_loader))
+        data=Data['image']
+        target=Data['labels']
+        data = data.to(device)
+        target = target.to(device)
+
+        output = model(data)
+        model.optimizer.zero_grad()
+        loss = model.Loss(output,target)   
+        loss.backward()
+        model.optimizer.step()
+        loss_cum.append(loss.item())
+        _, arg_max_out = torch.max(output.data.cpu(), 1)
+        #Acc += arg_max_out.long().eq(target.data.cpu().long()).sum()
+    
+    print("Loss: %0.3f"%(np.array(loss_cum).mean()))#, float(Acc*100)/len(data_loader.dataset)))
 
 def test(data_loader, model, epoch):
     model.eval()
@@ -391,8 +419,7 @@ if __name__=='__main__':
     test_loader = DataLoader(transformed_dataset_test, batch_size=batchS,
                         shuffle=False, num_workers=workers)
     
-    model =torch.load('model.pt')
-    model.eval()
+    model = Net()
     model.to(device)
 
     model.training_params()
@@ -404,6 +431,9 @@ if __name__=='__main__':
     _ = model(img.to(device).requires_grad_(False))
 
     for epoch in range(epochs):
-        test(test_loader, model, epoch)
+        train(train_loader, model, epoch)
+        test(val_loader, model, epoch)
+        if TEST: test(test_loader, model, epoch)
     
+torch.save(model,'model_complex.pt')
 

@@ -63,3 +63,8 @@ pruebas
 11-NN/data
 Challenge_Ignore
 >>>>>>> ba4d5690f263ba8afdf471b4f6ba228540d925f2
+celeba-dataset
+vision-master
+DCGAN_with_CelebA.py
+/train.py
+/AMP-Tech-master

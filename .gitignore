@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 dgnore/
 data/
 *.pptx
@@ -68,3 +69,29 @@ vision-master
 DCGAN_with_CelebA.py
 /train.py
 /AMP-Tech-master
+=======
+Ignore/
+*.pptx
+*.ppt
+*.odt
+BSR/
+*.tgz
+*solution*
+solution/
+_data/
+*.pyc
+.ipynb*
+clone/
+html/
+_html/
+www
+08-PHOW/data
+vlfeat
+*/matlab/data
+*/python/data
+*.csv
+11-NN/data
+Challenge_Ignore
+13-FCN/data/pretrained_models
+13-FCN/logs
+>>>>>>> 1f7ccef599f01038d9b422bb1b9309958e1404ea
